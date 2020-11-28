@@ -1,0 +1,23 @@
+.product-details{
+    padding-top: 88px;
+}
+.product-details button {
+    border: none;
+    margin-left: 55px;
+    margin-right: -17px;
+}
+
+.na,.mo,.des{
+    font-weight: bold;
+    font-size: 21px;
+   
+}
+.product-details .add-comment{
+    padding: 6px 26px;
+    border-radius: 25px;
+    background: var(--yellow);
+    color: white;
+    font-weight: 700;
+    margin-left: 18px;
+    margin-top: 14px;
+}
