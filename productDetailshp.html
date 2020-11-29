@@ -6,7 +6,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/all.min.css">
     <link href="css/home.css" rel="stylesheet">
-    <link href="css/productDetailsh1.css" rel="stylesheet">
+    <link href="css/productDetailshp.css" rel="stylesheet">
 
 </head>
 
@@ -56,28 +56,57 @@
                 <div class="col-sm-3"></div>
                 <div class="col-sm-3">
                     <div class="pictures">
-                        <img src="img/electronics/laptops/hp1.jpg" id="image" width="200" height="200">
+                        <img src="img/electronics/laptops/hp1.jpg" id="imagehp" width="200" height="200">
                         <div>
-                            <button onclick="slides(-1)" id='lift'> &lt; </button>
+                            <button onclick="slideshp(-1)" > &lt; </button>
 
-                            <button id=right onclick="slides(1)"> &gt; </button>
+                            <button  onclick="slideshp(1)"> &gt; </button>
                         </div>
+
+                        <p>buy this product</p>
+                       <div class="visa">
+                        <img src="img/visa.svg">
+                        <img src="img/mastercard.svg">
+                       </div>
+
+                        <input type="text" placeholder="Name In Card">
+                        <br>
+                        <input type="text" placeholder="Card Number">
+                        <br>
+                        <input type="text" placeholder="expiry Date">
+                        <br>
+                        <input type="text" placeholder="cvv">
+                        <br>
+
+                        <button class="add-comment">Buy</button>
+
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="details">
                        <div class="mo">Model</div>
-                       <div class="model">Honor</div>
+                       <div class="model">laptop</div>
                        <br>
                         <div class="na">Name</div>
-                        <div class="name">Honor 8X Dual SIM</div>
+                        <div class="name">HP </div>
                         <br>
                         <div class="des">Description</div>
-                        <div class="description">This Honor 8X Dual-SIM smartphone helps you tackle your everyday mobile
-                            computing needs with ultimate ease. It flaunts a high-class design that gives it an
-                            impeccable look. This smartphone sports a large 6.5inch screen with Full view display that
-                            brings the pictures to life. It renders every picture at an incredible resolution of 2340 x
-                            1080 pixels with 397ppi.</div>
+                        <div class="description">Brand : HP
+                            Hardware Platform : dos
+                            Color : Black
+                            Operating System Type : DOS
+                            Hard Disk Capacity : 1 TB
+                            Screen Size Range : 15 - 15.9 inches
+                            Processor Type : Athlon 300U
+                            USB : USB 2.0 & 3.1
+                            Hard Disk Interface : Serial ATA
+                            Display Size (Inch) : 15.6 inches
+                            Memory Card Reader : Yes
+                            RAM Size : 4 GB
+                            Processor Family : AMD Athlon
+                            Number of Processor Core : Dual Core
+                            Video Controller Manufacturer : AMD
+                            Memory ...</div>
                             <br>
                             <textarea>comments.....</textarea>
                             <button class="add-comment">Add comment</button>
@@ -98,6 +127,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/productDetailshp.js"></script>
     <script>
         $('.carousel').carousel({
             interval: 3000
