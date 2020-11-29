@@ -1,0 +1,72 @@
+.Women,.Men{
+    padding-top: 88px;
+}
+ h3{
+    display: inline-block;
+    background-color: #5e60ce;
+    color: white;
+    padding: 1px 39px;
+    margin-bottom: 46px;
+    margin-top: 44px;
+
+
+}
+
+.content{
+    position: relative;
+    width: 50%;
+    margin: auto;
+  }
+  .one-product .content img{
+      margin: auto;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .content:hover .image {
+    opacity: 0.3;
+  }
+  
+  .content:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: var(--white);
+    font-size: 16px;
+    padding: 8px 30px;
+    background-color: var(--warning);
+    border-radius: 25px;
+    font-weight: 700;
+  }
+  a:hover{
+      text-decoration: none;
+      color: var(--white);
+  }
+.name-price{
+    text-align: center;
+}
+  .one-product .p1{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 17px;
+  }
