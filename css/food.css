@@ -1,0 +1,16 @@
+.fruits,.vegetables{
+    padding-top: 88px;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .content{
+    position: relative;
+    width: 50%;
+    margin: auto;
+  }
