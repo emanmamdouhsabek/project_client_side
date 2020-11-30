@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>needs</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.min.css">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/productDetaildress.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <img src="img/icon.png" style=" width: 4%"> <a class="navbar-brand" href="home.html">Needs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li><a class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item active"> <a id="username" class="nav-link">user name</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="pictures">
+                        <img src="img/clothes/kids/t3.jpg" id="imagebrand" width="200" height="200">
+                        <div>
+                            <button onclick="slidbrand(-1)" > &lt; </button>
+
+                            <button  onclick="slidbrand(1)"> &gt; </button>
+                        </div>
+
+                        <p>buy this product</p>
+                       <div class="visa">
+                        <img src="img/visa.svg">
+                        <img src="img/mastercard.svg">
+                       </div>
+
+                        <input type="text" placeholder="Name In Card">
+                        <br>
+                        <input type="text" placeholder="Card Number">
+                        <br>
+                        <input type="text" placeholder="expiry Date">
+                        <br>
+                        <input type="text" placeholder="cvv">
+                        <br>
+
+                        <button class="add-comment">Buy</button>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="details">
+                       <div class="mo">Model</div>
+                       <div class="model">Kids clothes</div>
+                       <br>
+                        <div class="na">Name</div>
+                        <div class="name">Carina Cotton Glittery Letter-Print Pajama T-shirt</div>
+                        <br>
+                        <div class="des">Description</div>
+                        <div class="description">
+                            <ul>
+                                <li>Targeted Group : Unisex</li>
+                                 <li>Category : shirts</li>                            
+                                       <li>Brand : El_sayed</li>
+                                       <li>Size :8 years</li>
+                            </ul>
+</div>
+                            <br>
+                            <textarea>comments.....</textarea>
+                            <button class="add-comment">Add comment</button>
+
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/clotheskidsDetails.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+    </script>
+</body>
+
+</html>
