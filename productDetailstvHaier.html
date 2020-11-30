@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>needs</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.min.css">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/productDetailshp.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <img src="img/icon.png" style=" width: 4%"> <a class="navbar-brand" href="home.html">Needs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul> -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li><a class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item active"> <a id="username" class="nav-link">user name</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="pictures">
+                        <img src="img/electronics/SmartTVs/h1.jpg" id="imagetvhaier" width="200" height="200">
+                        <div>
+                            <button onclick="slidestvhaier(-1)"> &lt; </button>
+
+                            <button onclick="slidestvhaier(1)"> &gt; </button>
+                        </div>
+
+                        <p>buy this product</p>
+                        <div class="visa">
+                            <img src="img/visa.svg">
+                            <img src="img/mastercard.svg">
+                        </div>
+
+                        <input type="text" placeholder="Name In Card">
+                        <br>
+                        <input type="text" placeholder="Card Number">
+                        <br>
+                        <input type="text" placeholder="expiry Date">
+                        <br>
+                        <input type="text" placeholder="cvv">
+                        <br>
+
+                        <button class="add-comment">Buy</button>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="details">
+                        <div class="mo">Model</div>
+                        <div class="model">smart tv</div>
+                        <br>
+                        <div class="na">Name</div>
+                        <div class="name">haier</div>
+                        <br>
+                        <div class="des">Description</div>
+                        <div class="description">Haier 50 inch Ultra HD 4K LED Frameless Smart TV, Android
+                            SPECIFICATIONS:
+                            Display size: 50 inches
+                            Display type: LED
+                            HD Type: 4K Ultra HD
+                            Color: Black
+                            Resolution: 3840 x 2160
+                            Bezel type: Frameless
+                            RAM: 1 GB
+                            Storage: 8 GB
+                            Operating system: Android 9
+                            Built-in receiver
+                            Google Assistant
+                            Access to Netflix, YouTube and Playstore
+
+                            AUDIO
+                            Number of speakers: 2 (10 Watts)
+                            Connectivity:
+
+                            Bluetooth
+                            Wireless internet
+                            Inputs:
+
+                            3 HDMI ports
+                            SD Card Port
+                            2 USB ports
+                            Ethernet Lan port
+                            Accessories:
+
+                            Remote Control
+                        </div>
+                        <br>
+                        <textarea>comments.....</textarea>
+                        <button class="add-comment">Add comment</button>
+
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/productDetailshp.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+    </script>
+</body>
+
+</html>

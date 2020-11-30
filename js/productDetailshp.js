@@ -209,3 +209,175 @@ function  contenttvsamsung(num) {
     imagetvsamsung.src=tvsamsung[index-1];
 }
 
+
+// //////////////tvs(lg)///////////////
+var tvlg=["img/electronics/SmartTVs/lg1.jpg","img/electronics/SmartTVs/lg2.jpg","img/electronics/SmartTVs/lg3.jpg","img/electronics/SmartTVs/lg4.jpg"];
+
+
+var imagetvlg=document.getElementById('imagetvlg');
+
+
+
+var index=1;
+function slidestvlg(num) {
+    contenttvlg(index=index+num);
+}
+
+function  contenttvlg(num) {
+    
+    if(num>tvlg.length) 
+    index=1;
+    if(num<1) 
+    index=tvlg.length;
+
+    imagetvlg.src=tvlg[index-1];
+}
+
+// //////////////tvs(toshiba)///////////////
+var tvtoshiba=["img/electronics/SmartTVs/to1.jpg","img/electronics/SmartTVs/to2.jpg","img/electronics/SmartTVs/to3.jpg","img/electronics/SmartTVs/to4.jpg"];
+
+
+var imagetvtoshiba=document.getElementById('imagetvtoshiba');
+
+
+
+var index=1;
+function slidestvtoshiba(num) {
+    contenttvtoshiba(index=index+num);
+}
+
+function  contenttvtoshiba(num) {
+    
+    if(num>tvtoshiba.length) 
+    index=1;
+    if(num<1) 
+    index=tvtoshiba.length;
+
+    imagetvtoshiba.src=tvtoshiba[index-1];
+}
+
+// //////////////tvs(haier)///////////////
+var tvhaier=["img/electronics/SmartTVs/h1.jpg","img/electronics/SmartTVs/h2.jpg","img/electronics/SmartTVs/h3.jpg","img/electronics/SmartTVs/h4.jpg"];
+
+
+var imagetvhaier=document.getElementById('imagetvhaier');
+
+
+
+var index=1;
+function slidestvhaier(num) {
+    contenttvhaier(index=index+num);
+}
+
+function  contenttvhaier(num) {
+    
+    if(num>tvhaier.length) 
+    index=1;
+    if(num<1) 
+    index=tvhaier.length;
+
+    imagetvhaier.src=tvhaier[index-1];
+}
+
+
+
+// //////////////////camera////////////////////
+// ///////////camera(Canon)/////////////////
+
+var cameracanon=["img/electronics/camera/c1.jpg","img/electronics/camera/c2.jpg","img/electronics/camera/c3.jpg","img/electronics/camera/c4.jpg"];
+
+
+var imagecanon=document.getElementById('imagecanon');
+
+
+
+var index=1;
+function slidescanon(num) {
+    contentcanon(index=index+num);
+}
+
+function   contentcanon(num) {
+    
+    if(num>cameracanon.length) 
+    index=1;
+    if(num<1) 
+    index=cameracanon.length;
+
+    imagecanon.src=cameracanon[index-1];
+}
+
+
+// ///////////camera(nikon)/////////////////
+
+var cameranikon=["img/electronics/camera/n1.jpg","img/electronics/camera/n2.jpg","img/electronics/camera/n3.jpg","img/electronics/camera/n4.jpg"];
+
+
+var imagenikon=document.getElementById('imagenikon');
+
+
+
+var index=1;
+function slidesnikon(num) {
+    contentnikon(index=index+num);
+}
+
+function   contentnikon(num) {
+    
+    if(num>cameranikon.length) 
+    index=1;
+    if(num<1) 
+    index=cameranikon.length;
+
+    imagenikon.src=cameranikon[index-1];
+}
+
+
+
+// ///////////camera(Fujifilm)/////////////////
+
+var cameraFujifilm=["img/electronics/camera/f1.jpg","img/electronics/camera/f2.jpg","img/electronics/camera/f3.jpg","img/electronics/camera/f4.jpg"];
+
+
+var imageFujifilm=document.getElementById('imageFujifilm');
+
+
+
+var index=1;
+function slidesFujifilm(num) {
+    contentFujifilm(index=index+num);
+}
+
+function   contentFujifilm(num) {
+    
+    if(num>cameraFujifilm.length) 
+    index=1;
+    if(num<1) 
+    index=cameraFujifilm.length;
+
+    imageFujifilm.src=cameraFujifilm[index-1];
+}
+
+// ///////////camera(sony)/////////////////
+
+var camerasony=["img/electronics/camera/s1.jpg","img/electronics/camera/s2.jpg","img/electronics/camera/s3.jpg","img/electronics/camera/s4.jpg"];
+
+
+var imagesony=document.getElementById('imagesony');
+
+
+
+var index=1;
+function slidesony(num) {
+    contentsony(index=index+num);
+}
+
+function   contentsony(num) {
+    
+    if(num>camerasony.length) 
+    index=1;
+    if(num<1) 
+    index=camerasony.length;
+
+    imagesony.src=camerasony[index-1];
+}
+
