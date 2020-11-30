@@ -1,0 +1,44 @@
+.product-details{
+    padding-top: 88px;
+}
+.product-details button {
+    border: none;
+    margin-left: 55px;
+    margin-right: -17px;
+}
+
+.na,.mo,.des{
+    font-weight: bold;
+    font-size: 21px;
+   
+}
+.product-details .add-comment{
+    padding: 6px 26px;
+    border-radius: 25px;
+    background: var(--yellow);
+    color: white;
+    font-weight: 700;
+    margin-left: 18px;
+    margin-top: 14px;
+    margin-bottom: 63px;
+}
+.product-details p{
+    margin-top: 69px;
+    font-size: 20px;
+}
+.product-details input[type=text]{
+
+    outline: none;
+    padding: 6px 17px;
+    margin-bottom: 7px;
+}
+.product-details .visa{
+    display:flex;
+    display: flex;
+    margin-left: 22px;
+}
+.product-details .visa img{
+    width: 21%;
+    margin-right: 19px;
+
+}
