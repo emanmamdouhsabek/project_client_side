@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>needs</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/userProfile.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <img src="img/icon.png" style=" width: 4%"> <a class="navbar-brand" href="home.html">Needs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Categories</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                    <ul class="navbar-nav mr-auto">
+
+                        <li><a class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item active"> <a id="username" class="nav-link" href="userProfile.html">user profile</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- details -->
+
+    <div class="detailsUser">
+        <div class="container">
+            <h2>User Profile</h2>
+              <img src="img/user.png">
+            <div class="row">
+                <!-- <div class="col-lg-4"> <img src="img/user.png"></div> -->
+                <div class="" style="margin: auto;">
+                 
+                      
+                        <div class="col-lg-3 UserRi" >
+                            <label>name</label>
+                            <input type="text" placeholder="username">
+                        </div>
+                        <div class="col-lg-3">
+                            <label>email</label>
+                            <input type="text" placeholder="user@gmail.com">
+                        </div>
+
+                        <div class="col-lg-3 UserRi" class="">
+                            <label>phone</label>
+                            <input type="text" placeholder="000-000-0000">
+                        </div>
+                        <div class="col-lg-3">
+                            <label>password</label>
+                            <input type="password" placeholder="" value="ppppp">
+                        </div>
+
+                        <div class="col-lg-3 UserRi" class="">
+                            <label>Governorate</label>
+                            <input type="text" placeholder="Governorate">
+                        </div>
+                        <div class="col-lg-3">
+                            <label>city</label>
+                            <input type="text" placeholder="city">
+                        </div>
+                   
+                      
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div class="contact" id="contact">
+
+        <div class="container">
+            <h3>Contact Form </h3>
+            <input type="text" placeholder="first name">
+            <br>
+            <input type="text" placeholder="last name">
+            <br>
+            <input type="email" placeholder="email">
+            <br>
+            <input type="text" placeholder="phone">
+            <br>
+            <textarea>Message....</textarea>
+            <br>
+            <input type="submit" value="send">
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="le">
+                        <img src="img/icon.png">
+                        <span>needs</span>
+
+                        <!-- <p>Phone: +65 11.188.888</p> -->
+                        <p>Email: hello@needs.com</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+
+
+                </div>
+                <div class="col-lg-3">
+
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="ri">
+                        <input type="text" placeholder="enter your email...">
+                        <input type="submit">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/home.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 17px;
+}
+label{
+    font-size: 16px;
+    font-family: cursive;
+    margin-right: 11px;
+    text-transform: uppercase;
+    /* background-color: #ffc107c4; */
+    padding: 7px 23px;
+    margin-top: 28px;
+    margin-bottom: 7px;
+}
+.detailsUser{
+    text-align: center;
+}
+.detailsUser img{
+    width: 15%;
+}
+.detailsUser .UserRi{
+    float: right;
+    margin-right: 159px;
+}
+.detailsUser input {
+   
+padding: 7px 29px;
+background: #e9ecef;
+border-radius: 9px;
+/* border: none; */
+outline: none;
+border: none;
+font-family: cursive;
+border: 100;
+
+}

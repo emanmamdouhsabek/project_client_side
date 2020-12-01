@@ -10,8 +10,7 @@
 
 
 <body>
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container">
             <img src="img/icon.png" style=" width: 4%"> <a class="navbar-brand" href="home.html">Needs</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -21,24 +20,29 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="home.html">About Us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#categories">Categories</a>
+                        <a class="nav-link" href="home.html">Categories</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="home.html">Contact</a>
                     </li>
 
-                </ul> -->
+                </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                    <ul class="navbar-nav mr-auto">
+                      
+                        <li><a class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item active"> <a id="username" href="userProfile.html" class="nav-link">user pofile</a></li>
+                    </ul>
                 </form>
             </div>
         </div>
@@ -1270,7 +1274,7 @@
             </div>
 
            <!-- sony -->
-           <div class="sony">
+           <div class="sony" style="padding-bottom: 62px;">
             <h3>sony</h3>
             <div class="row">
                 <div class="col-sm-3 col-md-4 col-lg-3">
@@ -1360,14 +1364,39 @@
 
 
 
-    <!-- contact -->
-    <div class="contact">
-
-        <div class="container">
+   <!-- footer -->
+   <div class="footer">
+    <div class="container">
+       <div class="row">
+        <div class="col-lg-3">
+           <div class="le">
+            <img src="img/icon.png">
+            <span>needs</span>
+           
+            <!-- <p>Phone: +65 11.188.888</p> -->
+            <p>Email: hello@needs.com</p>
+           </div>
+            
+        </div>
+        <div class="col-lg-3">
+          
 
         </div>
+        <div class="col-lg-3">
+          
 
+        </div>
+           <div class="col-lg-3">
+            <div class="ri">
+                <input type="text" placeholder="enter your email...">
+                <input type="submit">
+              </div>
+           </div>
+        </div>
+          
+       </div>
     </div>
+</div>
 
 
     <script src="js/jquery-1.12.4.min.js"></script>

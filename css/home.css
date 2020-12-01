@@ -144,9 +144,9 @@ html {
 
 /************** footer *************/
 .footer{
-    background: var(--gray-dark);
-    background: var(--gray-dark);
-    /* padding: 7px 0px; */
+    background: var(--gray-dark); 
+    /* margin-top: 83px; */
+
 }
 
 .footer span{
