@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drawings Wall Art</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.min.css">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/details_four_catogray.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <img src="img/icon.png" style=" width: 4%"> <a class="navbar-brand" href="home.html">Needs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul> -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li><a class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item active"> <a id="username" class="nav-link">user name</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="pictures">
+                        <img src="img/Home and kitchen/Home Decor/d1.jpg" id="imagecook" width="200" height="200">
+                        <div>
+                            <button onclick="slidescook(-1)" > &lt; </button>
+
+                            <button  onclick="slidescook(1)"> &gt; </button>
+                        </div>
+
+                        <p>buy this product</p>
+                       <div class="visa">
+                        <img src="img/visa.svg">
+                        <img src="img/mastercard.svg">
+                       </div>
+
+                        <input type="text" placeholder="Name In Card">
+                        <br>
+                        <input type="text" placeholder="Card Number">
+                        <br>
+                        <input type="text" placeholder="expiry Date">
+                        <br>
+                        <input type="text" placeholder="cvv">
+                        <br>
+
+                        <button class="add-comment">Buy</button>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="details">
+                       <div class="mo">Model</div>
+                       <div class="model">Home Décor</div>
+                       <br>
+                        <div class="na">Name</div>
+                        <div class="name">Drawings Wall Art</div>
+                        <br>
+                        <div class="des">Description</div>
+                        <div class="description">Contemporary Art is simply all art 
+                            that is produced today. By ‘today’ it means ‘within our
+                             lifetime’ with the understanding that lifespans 
+                             vary from person to person.
+
+                            The term is often used interchangeably 
+                            with Modern Art, but this is not correct
+                            . Modern Art is (and always will be) used 
+                            to describe a particular period of art movement,
+                             specifically the 19th Century through to the 1960s
+                             (e.g. Impressionism, Cubism, Surrealism, Pop Art).
+
+                                ....</div> 
+                            <br>
+                            <textarea>comments.....</textarea>
+                            <button class="add-comment">Add comment</button>
+
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/details_of_four_catogray.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+    </script>
+</body>
+
+</html>
