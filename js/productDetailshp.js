@@ -4,9 +4,6 @@ var laptophp=["img/electronics/laptops/hp1.jpg","img/electronics/laptops/hp2.jpg
 
 
 var imagehp=document.getElementById('imagehp');
-
-
-
 var index=1;
 function slideshp(num) {
    contenthp(index=index+num);
