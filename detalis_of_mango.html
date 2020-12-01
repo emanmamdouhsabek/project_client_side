@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mango</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/all.min.css">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/banana.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <img src="img/icon.png" style=" width: 4%"> <a class="navbar-brand" href="home.html">Needs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul> -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li><a class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item active"> <a id="username" class="nav-link">user name</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="product-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="pictures">
+                        <img src="img/foods/fruits/mango/9.PNG" id="imageman" width="200" height="200">
+                        <div>
+                            <button onclick="slidesman(-1)" > &lt; </button>
+
+                            <button  onclick="slidesman(1)"> &gt; </button>
+                        </div>
+
+                        <p>buy this product</p>
+                       <div class="visa">
+                        <img src="img/visa.svg">
+                        <img src="img/mastercard.svg">
+                       </div>
+
+                        <input type="text" placeholder="Name In Card">
+                        <br>
+                        <input type="text" placeholder="Card Number">
+                        <br>
+                        <input type="text" placeholder="expiry Date">
+                        <br>
+                        <input type="text" placeholder="cvv">
+                        <br>
+
+                        <button class="add-comment">Buy</button>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="details">
+                       <div class="mo">Model</div>
+                       <div class="model">Fruits</div>
+                       <br>
+                        <div class="na">Name</div>
+                        <div class="name">Mango</div>
+                        <br>
+                        <div class="des">Description</div>
+                        <div class="description">The land of Nawabs is equally
+                             famous for its royal mangoes. Lucknow, 
+                             along with its adjoining towns, is widely
+                              known for its mango belt of North India.
+                               Available from mid-May to late August, 
+                               Dashehari mangoes grown here are easily
+                                distinguishable from other varieties of
+                                 mangoes in India by
+                             their green peels and wholesome taste.
+
+                                ....</div> 
+                            <br>
+                            <textarea>comments.....</textarea>
+                            <button class="add-comment">Add comment</button>
+
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/food.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+    </script>
+</body>
+
+</html>
