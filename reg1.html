@@ -1,76 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
+    <title></title>
 </head>
 <link rel="stylesheet" type="text/css" href="css/reg1.css">
 
 <body>
-<div class="page-wrapper bg-gra-01">
-	<div class="card">
-		<div class="card1">
-		<div class="card-heading card2"></div>
-		<div class="card-body card2">
-			<div class="card-body1">
-			<h2 class="title">Registration Info</h2>
-			<p class="title">Please fill in this form to create an account.</p>
-    <hr>
-			<form>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3" type="text" placeholder="Name" name="name" required="">
-                        </div>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3 " type="text" placeholder="BirthDate" name="birthday" required="" 
-                            onfocus="(this.type='date')">
-                      
-                        </div>
-                        <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search ">
-                            	
-                                <select name="gender" required="">
-                                    <option disabled="disabled" selected="selected">Gender</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    
-                                </select>
-                                
+    <div class="page-wrapper bg-gra-01">
+        <div class="card">
+            <div class="card1">
+                <div class="card-heading card2"></div>
+                <div class="card-body card2">
+                    <div class="card-body1">
+                        <h2 class="title">Registration Info</h2>
+                        <!-- <p class="title">Please fill in this form to create an account.</p>
+                        <hr> -->
+                        <form >
+                            <div class="input-group">
+
+                                <!-- <input class="" type="file" placeholder="picture"  required="" style="margin-bottom: 14px;" style="display:none"> -->
                             </div>
-                        </div>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3" type="text" placeholder="Governate" name="gov" required="">
-                        </div>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3" type="text" placeholder="Name" name="city" required="">
-                        </div>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3" type="email" placeholder="Email" name="email" required="">
-                        </div>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3" type="Password" placeholder="Password" name="psw" required="">
-                        </div>
-                        <div class="input-group">
-                        	
-                            <input class="input--style-3" type="number" placeholder="Phone" name="phone" required="" pattern="[0-9]{3}-[0-9]{3}" title="example:000-000">
-                        </div>
-                        <!-- <label>
+                            <div class="input-group">
+
+                                <input class="input--style-3" type="text"  placeholder="Name" id="name" name="uname">
+                            </div>
+                       
+                            <div class="input-group">
+                                                        	
+                            <input class="input--style-3" type="text" placeholder="Governate" id="gov" name="ugov" >
+                            </div>
+                            <div class="input-group">
+
+                                <input class="input--style-3" type="text" placeholder="City" id="city" name="ucity" >
+                            </div>
+                            <div class="input-group">
+
+                                <input class="input--style-3" type="email" placeholder="Email" name="uemail" id="email" >
+                            </div>
+                            <div class="input-group">
+
+                                <input class="input--style-3" type="Password" placeholder="Password" id="password"
+                                 name="upass"   >
+                            </div>
+                            <div class="input-group">
+
+                                <input class="input--style-3" type="text" placeholder="Phone" id="phone" 
+                                name="uphone"  >
+                            </div>
+                            <!-- pattern="[0-9]{3}-[0-9]{9}" -->
+                            <!-- <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label> -->
-                        <div class="p-t-10">
-                            <button class="btn " type="submit">Register</button>
-                        </div>
-                    </form>
-			</div>
+                            <div class="p-t-10">
+                                <button class="btn" type="submit" id="btnReg"   >Register</button>
+                            </div>
 
-		</div>
-		</div>
-	</div>
-	
-</div>
+                           
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/validateLogin.js"></script>
+
 </body>
+
 </html>

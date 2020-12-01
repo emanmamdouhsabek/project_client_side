@@ -10,11 +10,7 @@ body{
 
 
 .bg-gra-01 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
-  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  background: #f2f2f2;
 }
 .card{
 	border: .5px solid #ffffff00;
@@ -22,11 +18,10 @@ body{
 
 }
 .card1{
-	/*border: 2px blue solid;*/
+	
 	height: 600px;
 	width:60%;
-	/*padding-top: 20px;*/
-	/*text-align: center;*/
+	
 	margin: 30px auto 0;
 	border-radius: 5px;
 
@@ -34,8 +29,9 @@ body{
 .card2{
 	float: left;
 }
+/* linear-gradient(#775ece54,#775ece) , */
 .card-heading{
-background: url("../img/5.jpg") top left/cover no-repeat;
+  background: url(../img/5.jpg) top left/cover no-repeat;
   display: table-cell;
   width: 50%;
  
@@ -43,21 +39,27 @@ background: url("../img/5.jpg") top left/cover no-repeat;
   }
   .card-body{
   	 width: 50%;
-  	background: #ffffff70;
-  	height: 600px;
+  	background: #ffffff;
+    height: 600px;
+    text-align: center;
 
   }
   .title{
-  	text-align: center;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 46px;
   }
   .input--style-3,select {
-  width: 92%;
-  padding: 10px;
-  margin: 3px 0 15px 5px;
-  display: inline-block;
-  border: none;
- /* border-bottom: solid 1px black;*/
-  background: #f1f1f170;
+    /* width: 61%;  */
+    padding: 13px 45px;
+    margin: 6px 0px 9px 5px;
+    display: inline-block;
+    border: none;
+    /* border-bottom: solid 1px black; */
+    background: #f1f1f1;
+    border-radius: 25px;
+    border: 1px solid #dde;
+ 
 }
 
 input:focus, select:focus {
@@ -65,14 +67,16 @@ input:focus, select:focus {
   outline: none;
 }
 button {
-  background-color: #83608a;
+  background-color: #5e60ce;
   color: white;
-  font-size: 20px;
-  padding: 14px 15px;
-  margin: 10px 0 0;
+  font-size: 17px;
+  padding: 7px 0px;
+  margin: 19px 0 0;
   border: none;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  border-radius: 5px;
+  width: 63%;
+  /* opacity: 0.9; */
+  border-radius: 25px;
+  font-family: cursive;
+  outline: none;
 }
